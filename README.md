@@ -37,7 +37,11 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 #If you want to remove said persistence.
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Undefined
 ```
-### Run the launcher
+### Run the launcher from PowerShell
 ```powershell
    import-module ./PSNIT.psd1
+```
+### If you need to restart the module remove it and launch again with import-module
+```powershell
+   remove-module PSNIT
 ```
