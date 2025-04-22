@@ -1,0 +1,12 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore PowerShell-generated logs
+*.log
+
+# Ignore user-specific settings
+*.ps1xml
+.vscode/
+
+# .txt
+*.txt
