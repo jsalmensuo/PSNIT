@@ -1,4 +1,4 @@
-# PSNIT  ![version](https://img.shields.io/badge/version-0.1.0-blue.svg)
+# PSNIT  ![version](https://img.shields.io/badge/version-0.1.1-blue.svg)
 PowerShell Network Information Tool
 
 ## What does PSNIT do?
@@ -39,5 +39,5 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Undefined
 ```
 ### Run the launcher
 ```powershell
-.\PSNIT.ps1
+   import-module ./PSNIT.psd1
 ```
